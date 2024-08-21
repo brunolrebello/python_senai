@@ -91,3 +91,145 @@ else:
 else:
     print('Não teve encontro')
 -----------------------------------------------------------------
+
+candidato = int(input('Informe o número do candidato: \n'))
+
+if candidato == 13:
+    print('Votou no molusco')
+elif candidato == 22:
+    print('Votou no louco')
+else:
+    print('Candidato invalido')
+
+    candidato = int(input('Informe o número do candidato: \n'))
+
+
+match candidato:
+    case 13:
+        print('Votou no molusco')
+    case 22:
+        print('Votou no doido')
+    case _:
+        print('Opção invalida')
+
+numero = 10
+print(numero)
+
+numero = numero + 10
+print(numero)
+
+numero = numero -10
+print(numero)
+
+numero *= 20
+print(numero)
+
+numero = numero /2
+print(numero)
+
+
+numero = 10
+print(numero)
+
+numero = numero + 10
+print(numero)
+
+numero = numero -10
+print(numero)
+
+numero *= 20
+print(numero)
+
+numero = numero /3
+
+numero % 2 ==0
+print('par')
+numero % 1 == 1
+print ('impar')
+print(numero)
+
+numero1 = int(input('Digite um número: \n'))
+
+if numero1 % 2 == 0:
+
+    print('Par')
+
+else:
+    print('Impar')
+
+for i in range(5):
+    print(i)
+    ------------------------------------------------
+
+    
+
+frutas = ['maçã', 'morango', 'laranja','abacate']
+
+for fruta in frutas:
+   
+    print(fruta[2])
+
+for indice, fruta in enumerate(frutas):
+    print(f'Suas fruta são {indice} - {fruta}')
+
+    nomes = []
+
+for i in range(5):
+    nome = input('Informe o seu nome: \n')
+
+nomes.append(nome)
+
+for nome in nomes:
+    print(nomes)
+
+nome = 'Bruno'
+
+for i in nome:
+    print(i)
+
+    -----------------------------------------------------------------------------
+    numero = None
+while numero != 0:
+    numero = int(input('Digite um número \n'))
+    ---------------------------------
+
+    
+nomes = []
+
+for i in range(5):
+    nome = input('Informe o seu nome: \n')
+
+    nomes.append(nome)
+
+for nome in nomes:
+    print(nome)
+
+nome = 'Bruno'
+
+for i in nome:
+    print(i)
+    ---------------------------------------------------
+    Crie um programa que pergunte ao usuário um número de 1 a 3 e exiba o nome correspondente ao número (1: "um", 2: "dois", 3: "três").
+    2. Escreva um programa que peça ao usuário para inserir um número e verifique se o número é maior que 10.
+    3. Desenvolva um programa que pergunte ao usuário o dia da semana (número de 1 a 7) e exiba o nome do dia correspondente.
+
+4. Crie um algoritmo que solicite ao usuário uma cor (vermelho, verde, azul) e exiba uma mensagem correspondente à cor escolhida.
+
+5. Faça um programa que solicite ao usuário dois números e verifique se ambos são pares.
+6. Desenvolva um programa que pergunte ao usuário uma operação matemática (+, -, *, /) e dois números, e realize a operação escolhida.
+
+7. Escreva um programa que peça ao usuário uma nota de 0 a 10 e classifique a nota como "Baixa", "Média" ou "Alta" usando match-case.
+
+8. Desenvolva um algoritmo que pergunte ao usuário o estado civil (solteiro, casado, divorciado, viúvo) e exiba uma mensagem correspondente.
+
+9. Crie um algoritmo que verifique se um número inserido pelo usuário é par ou ímpar.
+
+10. Crie um algoritmo que solicite ao usuário uma idade e verifique se ela é maior ou igual a 18.
+
+11. Escreva um programa que solicite ao usuário para digitar seu nome e, em seguida, exiba uma mensagem de boas-vindas personalizada.
+
+12. Escreva um programa que peça ao usuário para escolher um modo de transporte (carro, bicicleta, a pé) e exiba uma mensagem com a velocidade média correspondente.
+
+13. Crie um algoritmo que solicite ao usuário um mês do ano (1 a 12) e exiba a estação do ano correspondente.
+
+14. Desenvolva um algoritmo que peça ao usuário para digitar dois números e verifique se a soma deles é maior que 100.
