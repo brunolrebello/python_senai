@@ -111,7 +111,27 @@ match candidato:
         print('Votou no doido')
     case _:
         print('Opção invalida')
+---------------------------------------------------------------
 
+if numero == 0:
+    print('Número baixo')
+elif numero ==1:
+    print('Número baixo')
+elif numero ==2:
+    print('Número baixo')
+elif numero==3:
+    print('Número baixo')
+elif numero==4:
+    print('Número baixo')
+elif numero ==5:
+    print('Número média')
+elif numero ==6:
+    print('Número média')
+elif numero ==7:
+    print('Número média')
+elif numero == 8:
+    print('Número alta')
+    -------------------------------------------------------
 numero = 10
 print(numero)
 
@@ -233,3 +253,35 @@ for i in nome:
 13. Crie um algoritmo que solicite ao usuário um mês do ano (1 a 12) e exiba a estação do ano correspondente.
 
 14. Desenvolva um algoritmo que peça ao usuário para digitar dois números e verifique se a soma deles é maior que 100.
+-------------------------------------------------------------
+number = 10
+while True:
+    number += 10
+    if  number > 10000000:
+        break
+        -----------------------------------------------
+15. Escreva um programa que pergunte ao usuário uma idade e verifique se a pessoa é adolescente (entre 13 e 19 anos).
+
+16. Desenvolva um programa que peça ao usuário um tipo de combustível (gasolina, etanol, diesel) e exiba o preço correspondente por litro.
+
+17. Crie um programa que solicite ao usuário dois números e exiba a soma, subtração, multiplicação e divisão entre eles.
+
+18. Faça um programa que peça ao usuário três números e verifique se todos são positivos.
+
+19. Escreva um algoritmo que peça ao usuário o nome de uma fruta e verifique se a fruta é uma maçã.
+
+20. Crie um programa que solicite ao usuário a temperatura em graus Celsius e converta para Fahrenheit.
+
+21. Escreva um algoritmo que peça ao usuário para digitar um número e verifique se ele é maior, menor ou igual a 10.
+
+22. Escreva um programa que peça ao usuário para inserir dois números e verifique se o primeiro é maior que o segundo.
+
+23. Crie um algoritmo que peça ao usuário uma palavra e verifique se a palavra é "Python".
+
+24. Desenvolva um algoritmo que pergunte ao usuário o nome de uma cidade e verifique se é a capital do Brasil.
+
+25. Escreva um programa que peça ao usuário um número de 0 a 20 e verifique se ele está entre 10 e 15.
+
+26. Desenvolva um algoritmo que peça ao usuário para inserir dois números e verifique se ambos são múltiplos de 5.
+
+27. Crie um programa que solicite ao usuário três números e exiba o maior deles.
