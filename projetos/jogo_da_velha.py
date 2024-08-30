@@ -19,4 +19,4 @@ while vencedor == False:
      vencedor = jv.vitoria()
 
 jogador = jv.troca_jogador(jogador)
-print(f'Você {jogador}venceu !!')
+print(f'Você {jogador}venceu !!'):
